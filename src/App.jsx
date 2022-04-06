@@ -1,9 +1,19 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Toolbar } from '@mui/material';
+import NavBar from './components/NavBar';
+import About from './pages/About';
+import Home from './pages/Home';
+
 function App() {
   return (
-    <>
-      <h1>Hello, world!</h1>
-      <p>This is a simple example of a React app.</p>
-    </>
+    <BrowserRouter>
+      <NavBar />
+      <Toolbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
