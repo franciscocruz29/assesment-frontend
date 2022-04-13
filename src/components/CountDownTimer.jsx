@@ -40,13 +40,14 @@ function CountDownTimer({ id }) {
         }}
       >
         <Link
+          target="_blank"
           to={id}
           style={{
             color: 'white',
             textDecoration: 'none',
           }}
         >
-          Go to Detail
+          Go to Details
         </Link>
       </Button>
       <Button
