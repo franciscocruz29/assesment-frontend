@@ -26,7 +26,7 @@ function NavBar() {
   };
 
   return (
-    <AppBar position="fixed" sx={{ backgroundColor: 'white' }}>
+    <AppBar position="fixed">
       <Container maxWidth="xxl">
         <Toolbar disableGutters>
           <Typography
@@ -34,13 +34,12 @@ function NavBar() {
             noWrap
             component="div"
             sx={{
-              color: 'black',
+              color: 'white',
               mr: 2,
               display: { xs: 'none', md: 'flex' },
-              fontFamily: 'Poppins',
             }}
           >
-            fakestore
+            The Fake Store
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -51,7 +50,7 @@ function NavBar() {
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
               color="inherit"
-              sx={{ color: 'black' }}
+              sx={{ color: 'white' }}
             >
               <MenuIcon />
             </IconButton>
@@ -95,10 +94,9 @@ function NavBar() {
               flexGrow: 1,
               display: { xs: 'flex', md: 'none' },
               color: 'black',
-              fontFamily: 'Poppins',
             }}
           >
-            fakestore
+            The Fake Store
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
@@ -114,7 +112,7 @@ function NavBar() {
               >
                 <Link
                   to={`${page === 'Home' ? '/' : page.toLowerCase()}`}
-                  style={{ color: 'black', textDecoration: 'none' }}
+                  style={{ color: 'white', textDecoration: 'none' }}
                 >
                   {page}
                 </Link>
