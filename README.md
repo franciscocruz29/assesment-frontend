@@ -6,7 +6,7 @@ La misión consta de dos partes: primero deberás construir un proyecto en React
 
 ## Proyecto
 
-[The fake store](assesmet-frontend.netlify.app)
+[The fake store](https://assesmet-frontend.netlify.app)
 
 ## Preguntas
 
