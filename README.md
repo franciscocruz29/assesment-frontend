@@ -6,6 +6,8 @@ La misión consta de dos partes: primero deberás construir un proyecto en React
 
 ## Proyecto
 
+[The fake store](assesmet-frontend.netlify.app)
+
 ## Preguntas
 
 **¿Cuáles son las ceremonias más importantes de un Sprint y cuál es la idea de cada una?**
