@@ -4,7 +4,7 @@ El objetivo de esta misión es poner en práctica lo que has aprendido en el pro
 
 La misión consta de dos partes: primero deberás construir un proyecto en React y después se debe responder una serie de preguntas.
 
-## Projecto
+## Proyecto
 
 ## Preguntas
 
