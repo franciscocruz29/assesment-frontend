@@ -40,7 +40,6 @@ function CountDownTimer({ id }) {
         }}
       >
         <Link
-          target="_blank"
           to={id}
           style={{
             color: 'white',
